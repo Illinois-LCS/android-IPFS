@@ -7,7 +7,6 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -38,6 +37,5 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="MAIN" />
-
 
 </RelativeLayout>

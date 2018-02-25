@@ -135,6 +135,7 @@ public class MainActivity extends AppCompatActivity
 
 
             if (id == R.id.nav_home) {
+                fragmentClass = HomeFragment.class;
             } else if (id == R.id.nav_connections) {
                fragmentClass = ConnectionsFragment.class;
             } else if (id == R.id.nav_contributions) {
