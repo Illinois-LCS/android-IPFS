@@ -40,9 +40,8 @@ public class buttonReport extends android.support.v4.app.Fragment {
 
         }
         catch (android.content.ActivityNotFoundException ex){
-            Toast.makeText(MainActivity.this, "there are no email clients ", Toast.LENGTH_SHORT).show();
-        }
 
+        }
 
         }
 

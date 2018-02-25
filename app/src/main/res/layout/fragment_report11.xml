@@ -25,7 +25,7 @@
         android:layout_marginBottom="65dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hide="SUBJECT" />
+        android:text="SUBJECT" />
 
     <EditText
         android:id="@+id/editMain"
@@ -36,7 +36,7 @@
         android:layout_marginBottom="53dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hide="MAIN" />
+        android:text="MAIN" />
 
 
 </RelativeLayout>
