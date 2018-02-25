@@ -21,3 +21,29 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'me.tatarka:gradle-retrolambda:3.7.0'
+    }
+}
+
+// Required because retrolambda is on maven central
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'com.android.application' //or apply plugin: 'java'
+apply plugin: 'me.tatarka.retrolambda'
+
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
