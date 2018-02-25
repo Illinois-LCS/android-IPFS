@@ -43,7 +43,7 @@ public void onButtonPressed(View view) {
 
     Intent i = new Intent(Intent.ACTION_SEND);
     i.setType("message/rfc822");
-    i.putExtra(Intent.EXTRA_EMAIL, new String[]{"lcsatuiuc@gmail.com"});
+    i.putExtra(Intent.EXTRA_EMAIL, new String[]{"lcscatuiuc@gmail.com"});
     i.putExtra(Intent.EXTRA_SUBJECT, sSubj);
     i.putExtra(Intent.EXTRA_TEXT, sMain);
     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
