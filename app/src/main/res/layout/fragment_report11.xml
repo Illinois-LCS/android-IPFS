@@ -14,7 +14,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="191dp"
-        android:text="Button" />
+        android:fontFamily="@font/brandon"
+        android:text="Submit" />
 
     <EditText
         android:id="@+id/editSubj"
@@ -25,7 +26,8 @@
         android:layout_marginBottom="65dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="SUBJECT" />
+        android:fontFamily="@font/brandon"
+        android:hint="Subj" />
 
     <EditText
         android:id="@+id/editMain"
@@ -36,6 +38,7 @@
         android:layout_marginBottom="53dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="MAIN" />
+        android:fontFamily="@font/brandon"
+        android:hint="Main Body" />
 
 </RelativeLayout>
