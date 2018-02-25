@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lcs_uiuc.hackillinois.ipfs.buttonReport">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="191dp"
+        android:text="Button" />
+
+    <EditText
+        android:id="@+id/editSubj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editMain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hide="SUBJECT" />
+
+    <EditText
+        android:id="@+id/editMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignStart="@+id/editSubj"
+        android:layout_marginBottom="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hide="MAIN" />
+
+
+</RelativeLayout>
