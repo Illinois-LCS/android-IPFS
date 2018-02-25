@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ipfs_logo_1024_ice_text"
+        android:icon="@drawable/ipfs_logo222222"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ipfs_logo222222"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
