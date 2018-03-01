@@ -1,0 +1,18 @@
+##Inspiration
+
+Our inspiration for this project came through researching distributed systems technology and expirementing with new/free/open source software. Our organization is intended to represent Latinos in Computer Science at the University of Illinois and we recognized an opportunity to build upon the incredible accomplishments of a member of the Latino community. After a few weeks of research on IPFS and watching the Founder Juan Batiz-Benet speak, we knew that he held similar values to our own organization through his continuous contributions to the open source community and dedication to creating a new distributed web that could someday be more efficient, more secure, and more open.
+
+
+##What does it do
+
+IPFS is a peer to peer hypermedia protocol that will allow for a more permanent distributed web. What we have attempted to create is a portal into the world of IPFS from your phone in the hope that we can expose more people to this revolutionary project in an aesthetically appealing and simple fashion. IPFS Mobile currently allows you to search the IPFS network for content.
+
+
+##How we built it
+
+We built IPFS Mobile through the use of Android studio and an IPFS-Java-api
+
+
+##Challenges we ran into
+
+Some issues we ran into during development were with the version of Java which we were able to use in android studio, and the ipfs-api's use of java 8. The version differences caused compatibility issues between Android and the -IPFS-api implementing lambda functions. Fortunately we were able to find a workaround

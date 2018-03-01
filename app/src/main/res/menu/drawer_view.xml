@@ -2,17 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_first_fragment"
+            android:id="@+id/nav_home"
             android:checked="true"
-            android:icon="@mipmap/ic_launcher"
-            android:title="First" />
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Home" />
         <item
             android:id="@+id/nav_connections"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Connections" />
+            android:icon="@drawable/ic_vector_polyline"
+            android:title="Connections"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share"/>
         <item
             android:id="@+id/nav_report"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_bug"
             android:title="Report Bug" />
     </group>
 

@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.lcs_uiuc.hackillinois.ipfs.MainActivity"
-    tools:context="com.lcs_uiuc.hackillinois.ipfs.homeFragment"
     tools:showIn="@layout/app_bar_main">
   
     <fragment

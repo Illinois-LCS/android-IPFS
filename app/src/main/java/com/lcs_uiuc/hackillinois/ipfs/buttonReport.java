@@ -1,6 +1,5 @@
 package com.lcs_uiuc.hackillinois.ipfs;
 
-import android.app.Fragment;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
@@ -9,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.support.v4.app.Fragment;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -23,7 +23,7 @@ import android.widget.Toast;
  *
  */
 
-public class buttonReport extends android.support.v4.app.Fragment {
+public class buttonReport extends Fragment {
 
     private OnButtonFragmentInteractionListener mListener;
 
